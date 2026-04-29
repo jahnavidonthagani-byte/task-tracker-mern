@@ -1,0 +1,122 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+  background:#f5f7fb;
+}
+
+/* FORM */
+.form{
+  width: 420px;
+  margin: 30px auto;
+  padding: 20px;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  display:flex;
+  flex-direction: column;
+  gap:12px;
+}
+
+.form input{
+  padding:10px;
+  border:1px solid #ccc;
+  border-radius:6px;
+  font-size:14px;
+}
+
+.form input:focus{
+  border-color:#4a90e2;
+}
+
+/* BUTTON */
+button{
+  padding:8px 14px;
+  border:none;
+  border-radius:6px;
+  cursor:pointer;
+  font-size:13px;
+  font-weight:500;
+}
+
+button:hover{
+  opacity:0.9;
+}
+
+/* TABLE CONTAINER */
+.tbl{
+  width: 90%;
+  margin: 30px auto;
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* HEADING */
+h1{
+  color: #1e293b;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+/* TABLE */
+table{
+  width:100%;
+  border-collapse: collapse;
+  background:white;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+  border-radius:8px;
+  overflow:hidden;
+  font-size:14px;
+}
+
+/* HEADER */
+th{
+  background:#111827;
+  color:white;
+  padding:10px;
+  text-align:center;
+}
+
+/* CELLS */
+td{
+  padding:8px;
+  text-align:center;
+  border-bottom:1px solid #eee;
+}
+
+/* ROW COLORS */
+tr:nth-child(even){
+  background:#f9fafb;
+}
+
+/* BUTTON COLORS */
+td button{
+  margin:2px;
+}
+
+td button:nth-child(1){
+  background:#f59e0b;
+  color:white;
+}
+
+td button:nth-child(2){
+  background:#ef4444;
+  color:white;
+}
+
+td button:nth-child(3){
+  background:#10b981;
+  color:white;
+}
+.mainHeading{
+  text-align: center;
+  margin: 20px 0;
+  font-size: 28px;
+  color: #111827;
+  font-weight: 600;
+}
